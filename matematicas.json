@@ -1,0 +1,177 @@
+{
+  "name": "Matemáticas",
+  "description": "Matemáticas para 4to grado - Operaciones, fracciones, geometría y más",
+  "grade_level": 4,
+  "icon": "🔢",
+  "topics": [
+    {
+      "id": "mat_001",
+      "title": "Operaciones Básicas",
+      "description": "Suma, resta, multiplicación y división con números grandes",
+      "difficulty": "beginner",
+      "keywords": ["suma", "resta", "multiplicación", "división", "operaciones"],
+      "concepts": [
+        "Suma y resta con números de 4 cifras",
+        "Multiplicación por números de 2 cifras",
+        "División con divisor de 1 cifra",
+        "Problemas con varias operaciones"
+      ],
+      "exercises": [
+        {
+          "type": "practice",
+          "question": "¿Cuánto es 456 + 789?",
+          "answer": "1245",
+          "hint": "Suma columna por columna, empezando por las unidades"
+        },
+        {
+          "type": "practice",
+          "question": "Calcula 824 - 356",
+          "answer": "468",
+          "hint": "Recuerda prestar cuando sea necesario"
+        }
+      ]
+    },
+    {
+      "id": "mat_002",
+      "title": "Fracciones",
+      "description": "Introducción a las fracciones: concepto, comparación y operaciones simples",
+      "difficulty": "intermediate",
+      "keywords": ["fracciones", "numerador", "denominador", "partes"],
+      "concepts": [
+        "Qué es una fracción (mitad, tercio, cuarto)",
+        "Fracciones equivalentes",
+        "Comparación de fracciones",
+        "Suma y resta de fracciones con igual denominador"
+      ],
+      "exercises": [
+        {
+          "type": "concept",
+          "question": "Si divides una pizza en 8 partes iguales y comes 3, ¿qué fracción comiste?",
+          "answer": "3/8",
+          "hint": "El denominador es el total de partes, el numerador las que comiste"
+        },
+        {
+          "type": "practice",
+          "question": "¿Cuánto es 1/4 + 2/4?",
+          "answer": "3/4",
+          "hint": "Cuando el denominador es igual, solo sumas los numeradores"
+        }
+      ]
+    },
+    {
+      "id": "mat_003",
+      "title": "Geometría Básica",
+      "description": "Figuras geométricas, perímetros y áreas",
+      "difficulty": "intermediate",
+      "keywords": ["geometría", "figuras", "perímetro", "área", "cuadrado", "rectángulo"],
+      "concepts": [
+        "Identificar figuras geométricas",
+        "Calcular perímetros",
+        "Calcular áreas de cuadrados y rectángulos",
+        "Ángulos rectos, agudos y obtusos"
+      ],
+      "exercises": [
+        {
+          "type": "practice",
+          "question": "Un cuadrado tiene lados de 5 cm. ¿Cuál es su perímetro?",
+          "answer": "20 cm",
+          "hint": "El perímetro es la suma de todos los lados. Un cuadrado tiene 4 lados iguales"
+        },
+        {
+          "type": "practice",
+          "question": "Un rectángulo mide 6 cm de largo y 3 cm de ancho. ¿Cuál es su área?",
+          "answer": "18 cm²",
+          "hint": "El área de un rectángulo es largo × ancho"
+        }
+      ]
+    },
+    {
+      "id": "mat_004",
+      "title": "Tablas de Multiplicar",
+      "description": "Dominio de las tablas del 1 al 10",
+      "difficulty": "beginner",
+      "keywords": ["multiplicación", "tablas", "productos"],
+      "concepts": [
+        "Tablas del 2 al 5",
+        "Tablas del 6 al 10",
+        "Trucos para recordar las tablas",
+        "Aplicación en problemas"
+      ],
+      "exercises": [
+        {
+          "type": "drill",
+          "question": "7 × 8 = ?",
+          "answer": "56",
+          "hint": "Piensa: 7 × 8 es como 56 días tiene febrero (aproximadamente)"
+        },
+        {
+          "type": "drill",
+          "question": "9 × 6 = ?",
+          "answer": "54",
+          "hint": "9 × 6 = 54"
+        }
+      ]
+    },
+    {
+      "id": "mat_005",
+      "title": "Problemas con Palabras",
+      "description": "Resolución de problemas matemáticos de la vida real",
+      "difficulty": "intermediate",
+      "keywords": ["problemas", "aplicación", "razonamiento"],
+      "concepts": [
+        "Identificar datos importantes",
+        "Elegir la operación correcta",
+        "Resolver paso a paso",
+        "Verificar la respuesta"
+      ],
+      "exercises": [
+        {
+          "type": "word_problem",
+          "question": "María tiene 24 caramelos y quiere repartirlos equitativamente entre 6 amigos. ¿Cuántos caramelos recibirá cada amigo?",
+          "answer": "4 caramelos",
+          "hint": "Necesitas dividir el total entre el número de amigos"
+        },
+        {
+          "type": "word_problem",
+          "question": "Un libro tiene 120 páginas. Si lees 15 páginas por día, ¿cuántos días tardarás en terminarlo?",
+          "answer": "8 días",
+          "hint": "Divide el total de páginas entre las páginas por día"
+        }
+      ]
+    },
+    {
+      "id": "mat_006",
+      "title": "Medidas y Unidades",
+      "description": "Longitud, peso, capacidad y tiempo",
+      "difficulty": "beginner",
+      "keywords": ["medidas", "metros", "kilogramos", "litros", "tiempo"],
+      "concepts": [
+        "Unidades de longitud (cm, m, km)",
+        "Unidades de peso (g, kg)",
+        "Unidades de capacidad (ml, l)",
+        "Conversiones simples"
+      ],
+      "exercises": [
+        {
+          "type": "practice",
+          "question": "¿Cuántos centímetros hay en 2 metros?",
+          "answer": "200 cm",
+          "hint": "1 metro = 100 centímetros"
+        },
+        {
+          "type": "practice",
+          "question": "¿Cuántos gramos hay en medio kilogramo?",
+          "answer": "500 g",
+          "hint": "1 kilogramo = 1000 gramos"
+        }
+      ]
+    }
+  ],
+  "learning_objectives": [
+    "Dominar las operaciones básicas con números de varias cifras",
+    "Comprender el concepto de fracción y realizar operaciones simples",
+    "Identificar y calcular perímetros y áreas de figuras básicas",
+    "Resolver problemas matemáticos aplicados a situaciones cotidianas",
+    "Utilizar correctamente las unidades de medida"
+  ]
+}
